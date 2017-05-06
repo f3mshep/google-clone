@@ -6,6 +6,10 @@ input[type=text] {
 	border: 0.5px solid #d9d9d9;
 	border-radius: 1px;
 	outline: none;
+	background-image: url('voice.png');
+	background-position: 96%;
+	background-repeat: no-repeat;
+	background-size: 13px;
 }
 
 #search {
