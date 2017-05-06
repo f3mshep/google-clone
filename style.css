@@ -13,7 +13,8 @@ input[type=text] {
 }
 
 #logo {
-	text-align: center
+	text-align: center;
+	padding-bottom: 30px;
 }
 
 .shadow {
@@ -41,6 +42,7 @@ input[type=text] {
 }
 
 .container1 {
+	padding-top: 40px;
 	position: absolute;
 	top: 170px;
 	left: 30%;
@@ -49,5 +51,5 @@ input[type=text] {
 .big {
 	position: absolute;
 	top: 200px;
-	left: 35%;
+	left: 30%;
 }
