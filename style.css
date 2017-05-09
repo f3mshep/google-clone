@@ -33,7 +33,7 @@ input[type=text] {
 	background-color: #f5f5f5;
 	font-size: 12px;
 	padding: 10px 12px;
-	font-family: "arial";
+	font-family: "Arial";
 	border: none;
 	border-radius: 3px;
 	font-weight: bold;
@@ -42,7 +42,16 @@ input[type=text] {
 
 .buttons:hover {
 	box-shadow: 1px 1px 2px #888888;
-	border: 0.5px #d9d9d9;
+	border: 0.25px #d9d9d9;
+}
+
+#app img{
+	width:25px;
+	height:auto;
+}
+
+#app img:hover{
+	filter: brightness(25%);
 }
 
 .container1 {
@@ -55,5 +64,65 @@ input[type=text] {
 .big {
 	position: absolute;
 	top: 200px;
-	left: 30%;
+	left: 33%;
+}
+
+a {
+	opacity: .75;
+	color: #282828;
+	text-decoration: none;
+	font-family: "Arial";
+	font-size: small;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	font-size: medium;
+	font-family: "Arial";
+	background-color: #f5f5f5;
+	position: fixed;
+	line-height: 35px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border: 0.5px solid #d9d9d9;
+}
+
+#footer #rightie {
+	float: right;
+	width: 200px;
+	display: flex;
+	padding-right: 50px;
+	justify-content: space-between;
+}
+
+#footer #leftie {
+	padding-left: 50px;
+	float: left;
+	width: 200px;
+	display: flex; 
+	justify-content: space-between;
+}
+
+#signin {
+	background-color: #4583ed;
+	border:none;
+	border-radius: 3px;
+	color: white;
+	padding: 8px 14px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	font-family:"Arial";
+	font-weight: bold;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end; 
 }
